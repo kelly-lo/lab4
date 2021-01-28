@@ -27,6 +27,12 @@
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
 		</div>
 
+		<ol>
+		{{#each project}}
+			<li><a href="#{{id}}">{{name}}</a></li>
+		{{/each}}
+		</ol>
+
 
 		<h4>Projects</h4>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
